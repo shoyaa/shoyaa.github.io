@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Emir Demirtas | Developer</title>
+  </head>
+  <body class="text-[#352525]">
+    <div class="h-screen absolute z-50 w-full bg-[#352525] landing"></div>
+    <div class="hidden lg:block ball z-10"></div>
+    <div class="smooth-scroll">
+      <div
+        class="testing bg-red-700 h-0 absolute z-50 w-full overflow-hidden transition-all duration-300 flex items-center justify-center"
+      >
+        <img
+          class="top-20 right-10 invisible nav__close absolute h-5 w-5 fill-white"
+          src="close.svg"
+        />
+        <ul class="invisible space-y-10 text-white text-3xl">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <nav
+        class="max-w-sm lg:max-w-[100rem] mx-auto py-8 flex justify-between text-[1rem] overflow-hidden px-4 lg:px-8 xl:px-0"
+      >
+        <div class="block lg:grid lg:grid-cols-[25vw_minmax(25vw,_1fr)_1fr]">
+          <a href="/" class="nav-item pl-2 whitespace-nowrap">Emir Demirtas</a>
+          <span class="nav-item hidden lg:visible">Web Developer</span>
+        </div>
+        <ul class="hidden lg:flex">
+          <li class="pl-8 nav-item"><a href="about.html">About</a></li>
+          <li class="pl-8 nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+        <span class="block lg:hidden nav-item pr-8 nav__menu">Menu</span>
+      </nav>
+      <main>
+        <div
+          class="flex flex-col pl-5 lg:px-10 xl:pl-4 pt-16 lg:pt-0 max-w-[100rem] mx-auto h-[80vh] lg:h-screen select-none leading-[1] text-[3.4rem] md:text-[15vw] lg:text-[8.5vw] xl:text-[10vw]"
+        >
+          <div class="overflow-hidden">
+            <h1
+              class="font-light flex-wrap title pt-8 relative pointer-events-none"
+            >
+              I’m Emir, <br />
+            </h1>
+          </div>
+          <div class="overflow-hidden">
+            <h1
+              class="flex-wrap title-2 font-light relative pointer-events-none"
+            >
+              a <span class="title-3 font-semibold">web developer</span><br />
+            </h1>
+          </div>
+          <div class="overflow-hidden">
+            <h1 class="font-light flex-wrap title-4 pb-8 pointer-events-none">
+              based in Istanbul
+            </h1>
+          </div>
+          <div class="flex mt-10">
+            <img
+              class="w-16 h-16 lg:h-32 lg:w-32 rotate-180 arrow-down cursor-pointer"
+              src="mouse-icon.png"
+            />
+          </div>
+        </div>
+
+        <div
+          class="py-12 lg:py-24 border-y border-y-black border-animate font-extralight max-w-full px-10 lg:max-w-[100rem] mx-auto flex flex-col about"
+        >
+          <h3
+            class="text-[3em] md:text-[4rem] leading-none lg:text-[4rem] mb-12 font-extralight"
+          >
+            About Me
+          </h3>
+          <p class="text-[1em] md:text-[1.5em] lg:text-[2em] leading-[1.6em]">
+            I’m a developer with experience in building websites for small and
+            medium sized businesses. I’m experienced in HTML,CSS,Javascript
+            ,React,NextJS, jQuery, WordPress and SEO. Basically, I can help you
+            develop the front end for your project.
+          </p>
+        </div>
+        <div class="z-50 relative py-16 px-5">
+          <div
+            class="max-w-full lg:max-w-[100rem] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+          >
+            <div
+              class="px-4 text-[4rem] md:text-[6rem] lg:text-[7rem] leading-none"
+            >
+              <div class="mb-2 pl-5">My</div>
+
+              <div class="bg-[#FF9F84] rounded-full px-5 w-fit">Stacks</div>
+
+              <div class="pl-5">I'm Good At</div>
+            </div>
+
+            <div
+              class="relative my-stack h-full"
+              data-scroll-class="testt"
+              data-scroll
+            ></div>
+            <div
+              class="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md p-5 shadow-lg lg:hidden"
+            >
+              <ul class="invis__list space-y-5 md:space-y-9 md:text-[1.5rem]">
+                <li>▹ HTML</li>
+                <li>▹ CSS</li>
+                <li>▹ Javascript</li>
+                <li>▹ React</li>
+                <li>▹ NextJs</li>
+                <li>▹ Figma</li>
+                <li>▹ Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="selected__works py-32 px-5">
+          <div class="pl-5 lg:pl-5 mx-auto lg:max-w-[100rem]">
+            <div class="overflow-hidden">
+              <h1
+                class="text-[3em] md:text-[3.5rem] lg:text-[4rem] mb-12 font-extralight leading-[1em] s-works"
+              >
+                Selected Works
+              </h1>
+            </div>
+            <div
+              class="text-3xl mt-16 grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-full"
+            >
+              <div
+                class="hidden overflow-hidden w-full lg:flex items-center justify-center relative"
+              >
+                <div class="absolute">
+                  <div class="slider w-full h-full opacity-0 overflow-hidden">
+                    <img
+                      class="w-full h-full object-contain object-top"
+                      src="nft.png"
+                    />
+                  </div>
+                </div>
+                <div class="absolute">
+                  <div class="slider w-full h-full opacity-0 overflow-hidden">
+                    <img
+                      class="w-full h-full object-none object-top"
+                      src="k-fandom.png"
+                    />
+                  </div>
+                </div>
+                <div class="absolute">
+                  <div class="slider w-full opacity-0 overflow-hidden">
+                    <img class="w-full h-full" src="weather.png" />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="https://mellifluous-kringle-eeb06d.netlify.app/">
+                  <div
+                    class="py-8 mb-10 flex items-center relative job-item cursor-pointer border-b border-blue-900"
+                    data-ref="1"
+                  >
+                    <span class="text-base w-7">01</span>
+                    <p class="text-base md:text-lg lg:text-lg w-2/4">
+                      NFT Minting App on Solana
+                    </p>
+                    <p class="text-base md:text-lg lg:text-lg flex-1">
+                      NextJs, Tailwind, Web3
+                    </p>
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.63668 21.2132L17.9887 10.8611L17.9887 20.3646L20.3646 20.3646V6.78819H6.78816L6.78816 9.16407L16.2917 9.16407L5.93963 19.5161L7.63668 21.2132Z"
+                        fill="black"
+                      ></path>
+                    </svg>
+                    <div
+                      class="line absolute bottom-0 h-[1px] bg-red-500 w-full"
+                    ></div>
+                  </div>
+                </a>
+                <a href="https://k-fandom.net">
+                  <div
+                    class="py-8 mb-10 flex items-center relative job-item cursor-pointer border-b border-blue-900"
+                    data-ref="2"
+                  >
+                    <span class="text-base w-7">02</span>
+                    <p class="text-base md:text-lg lg:text-lg w-2/4">
+                      K-Fandom
+                    </p>
+                    <p class="text-base md:text-lg lg:text-lg flex-1">
+                      Wordpress
+                    </p>
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.63668 21.2132L17.9887 10.8611L17.9887 20.3646L20.3646 20.3646V6.78819H6.78816L6.78816 9.16407L16.2917 9.16407L5.93963 19.5161L7.63668 21.2132Z"
+                        fill="black"
+                      ></path>
+                    </svg>
+                    <div
+                      class="line absolute bottom-0 h-[1px] bg-red-500 w-full"
+                    ></div>
+                  </div>
+                </a>
+                <a href="https://weather-list-turkey.vercel.app/weather">
+                  <div
+                    class="py-8 flex items-center relative job-item cursor-pointer border-b border-blue-900"
+                    data-ref="3"
+                  >
+                    <span class="text-base w-7">03</span>
+                    <p class="text-base md:text-lg lg:text-lg w-2/4">
+                      Weather App With ISR
+                    </p>
+                    <p class="text-base md:text-lg lg:text-lg flex-1">
+                      NextJs, Tailwind
+                    </p>
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.63668 21.2132L17.9887 10.8611L17.9887 20.3646L20.3646 20.3646V6.78819H6.78816L6.78816 9.16407L16.2917 9.16407L5.93963 19.5161L7.63668 21.2132Z"
+                        fill="black"
+                      ></path>
+                    </svg>
+                    <div
+                      class="line absolute bottom-0 h-[1px] bg-red-500 w-full"
+                    ></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="parallax bg-[#ffe5f9] xl:h-screen py-16 px-5">
+          <div
+            class="max-w-[100rem] flex flex-col mx-auto relative gap-10 lg:pt-10"
+          >
+            <h1
+              class="text-[3em] md:text-[3.5rem] lg:text-[4rem] mb-12 font-extralight leading-[1em]"
+            >
+              Process
+            </h1>
+            <div
+              class="mb-10 w-full lg:w-1/2"
+              data-scroll
+              data-scroll-delay="0.2"
+              data-scroll-speed="1"
+            >
+              <h1 class="lg:text-[2rem] leading-none font-semibold mb-5">
+                Creative Approach
+              </h1>
+              <p class="leading-[1.25] text-lg">
+                I try to learn as much as I can before designing. This means
+                really understanding the problem at hand through research and
+                anything else I can do to connect to the project or client.
+              </p>
+            </div>
+            <div
+              class="mb-10 w-full lg:w-1/2"
+              data-scroll
+              data-scroll-delay="0.3"
+              data-scroll-speed="2"
+            >
+              <h1 class="lg:text-[2rem] leading-none font-semibold mb-5">
+                Design Strategy
+              </h1>
+              <p class="leading-[1.25] text-lg">
+                I pull together a few design directions, create prototypes, and
+                really get a feel for the product before going into development.
+              </p>
+            </div>
+            <div
+              class="mb-10 w-full lg:w-1/2"
+              data-scroll
+              data-scroll-delay="0.4"
+              data-scroll-speed="3"
+            >
+              <h1 class="lg:text-[2rem] leading-none font-semibold mb-5">
+                Production
+              </h1>
+              <p class="leading-[1.25] text-lg">
+                I start coding implement the final project. This means running
+                through quality assurance and testing to make sure I have the
+                best possible solution.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex text-black flex-col contact-2 no-underline overflow-hidden"
+        >
+          <div class="marquee text-lg lg:text-[9.313rem] leading-normal py-36">
+            <a
+              href="mailto:emirudemirtas@gmail.com"
+              target="_blank"
+              class="marquee__inner"
+              aria-hidden="true"
+            >
+              <span class="cursor-pointer"> Contact Me </span>
+              <span class="cursor-pointer"> Contact Me </span>
+              <span class="cursor-pointer"> Contact Me </span>
+              <span class="cursor-pointer"> Contact Me </span>
+            </a>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div
+          class="flex py-8 max-w-[100rem] mx-auto border-t border-black text-black text-sm footer md:text-lg lg:text-lg"
+        >
+          <p class="flex-1 pl-4 lg:pl-0">Made with passion by Emir</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

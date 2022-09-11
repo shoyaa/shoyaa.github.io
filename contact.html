@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Emir Demirtas | Developer</title>
+  </head>
+  <body class="text-[#352525] overflow-hidden">
+    <div class="h-screen absolute z-50 w-full bg-[#352525] landing"></div>
+
+    <div class="hidden lg:block ball z-10"></div>
+
+    <div class="smooth-scroll">
+      <div class="h-screen relative">
+        <div
+          class="testing bg-red-700 h-0 absolute z-50 w-full transition-all duration-300 flex items-center justify-center"
+        >
+          <img
+            class="top-20 right-10 invisible nav__close absolute h-5 w-5 fill-white"
+            src="close.svg"
+          />
+          <ul class="invisible space-y-10 text-white text-3xl">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <nav
+          class="max-w-sm lg:max-w-[100rem] mx-auto py-8 px-10 flex justify-between text-[1rem] overflow-hidden"
+        >
+          <div class="block lg:grid lg:grid-cols-[25vw_minmax(25vw,_1fr)_1fr]">
+            <a href="/" class="nav-item pl-2 lg:pl-0 whitespace-nowrap"
+              >Emir Demirtas</a
+            >
+            <span class="nav-item hidden lg:visible">Web Developer</span>
+          </div>
+          <ul class="hidden lg:flex">
+            <li class="pl-8 nav-item"><a href="about.html">About</a></li>
+            <li class="pl-8 nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+          <span class="block lg:hidden nav-item pr-8 nav__menu">Menu</span>
+        </nav>
+        <div
+          class="flex flex-col max-w-[100rem] mx-auto h-full select-none items-center justify-center"
+        >
+          <a
+            class="contact-2"
+            href="mailto:emirudemirtas@gmail.com"
+            target="_blank"
+            >emirudemirtas@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
